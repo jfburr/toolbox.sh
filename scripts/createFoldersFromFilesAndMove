@@ -1,0 +1,7 @@
+#!/bin/sh
+
+for f in * ; 
+do
+	mkdir "$f-folder"
+	mv "$f" "$f-folder" ; 
+done
